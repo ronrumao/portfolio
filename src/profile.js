@@ -20,7 +20,7 @@ const background = {
 const section2title = "About Me";
 const about = {
   paragraph:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. ",
+    "Coming Soon.... ",
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
@@ -38,24 +38,24 @@ const skillsBar = [
     faClass: "fab fa-js",
   },
   {
-    name: "SASS",
-    faClass: "fab fa-sass",
+    name: "Docker",
+    faClass: "fab fa-docker",
   },
   {
     name: "Node",
     faClass: "fab fa-node",
   },
   {
-    name: "Python",
-    faClass: "fab fa-python",
+    name: "Jenkins",
+    faClass: "fab fa-jenkins",
   },
   {
     name: "Java",
     faClass: "fab fa-java",
   },
   {
-    name: "PHP",
-    faClass: "fab fa-php",
+    name: "Angular",
+    faClass: "fab fa-angular",
   },
   {
     name: "Database",
@@ -144,7 +144,7 @@ const miscellaneous = [
 const section5Title = "Get in Touch";
 const contact = {
   pitch:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
+    "Coming Soon.....",
   copyright: "Aaron Rumao",
   contactUrl: "",
 };
