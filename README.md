@@ -1,15 +1,14 @@
-# Web Developer React Portfolio ⚡️ [![GitHub](https://img.shields.io/github/license/kaustubhai/portfolio-template?color=blue)](https://github.com/kaustubhai/portfolio-template/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/kaustubhai/portfolio-template)](https://github.com/kaustubhai/portfolio-template/stargazers)
+# Web Developer React Portfolio ⚡️ [![GitHub](https://img.shields.io/github/license/ronrumao/portfolio?color=blue)](https://github.com/ronrumao/portfolio/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/ronrumao/portfolio)](https://github.com/kaustubhai/portfolio/stargazers)
 
 ## A clean, beautiful and responsive react portfolio template for Developers!
 
-# Credits
-Kaustub Mishra (https://github.com/kaustubhai)
+### Credits - Kaustubh Mishra (https://github.com/kaustubhai)
 
 A modification project on top of Kaustub's project to add components as per own need and make it more customizable to use while trying to get hands-on with ReactJS.
 
 <p align="center">
   <kbd>
-<img src="https://github.com/ronrumao/portfolio-template/blob/master/public/portfolio-example.gif?raw=true"></img>
+<img src="https://github.com/ronrumao/portfolio/blob/master/public/portfolio-example.gif?raw=true"></img>
   </kbd>
 </p>
 
@@ -19,10 +18,10 @@ Just change `src/profile.js` to get your personal portfolio. Feel free to use it
 To Update the image go to `src/styles/images.css`  
 To change colors, go to `src/styles/style.css`
 
-But if you want to **contribute** and make this much better for other developer raise a [Issue](https://github.com/ronrumao/portfolio-template/issues).
+But if you want to **contribute** and make this much better for other developer raise a [Issue](https://github.com/ronrumao/portfolio/issues).
 
 
-If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/ronrumao/portfolio-template/pulls).
+If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/ronrumao/portfolio/pulls).
 
 ## Table of Contents
 - [Sections](#sections)
@@ -40,7 +39,7 @@ If you created something awesome and want to contribute then feel free to open a
 ✔️ Contact Form\
 ✔️ Social Profile\
 
-To view a live example, **[click here](https://ronrumao.netlify.app/)**.
+To view a live example, **[click here](https://ronrumaogithub.io/portfolio/)**.
 
 
 ## Getting Started
@@ -62,10 +61,10 @@ From your command line, clone and run developerFolio:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/ronrumao/portfolio-template.git
+$ git clone https://github.com/ronrumao/portfolio.git
 
 # Go into the repository
-$ cd portfolio-template
+$ cd portfolio
 
 # Install dependencies
 $ npm install
@@ -108,13 +107,13 @@ We highly recommend to read through the [Deploying on Github Pages](https://crea
 
 You could also host directly with Netlify by linking your own repository.
 
-[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ronrumao/portfolio-template)
+[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ronrumao/portfolio)
 
 For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
 
 
 ## For the Future
-If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/ronrumao/portfolio-template/pulls).
+If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/ronrumao/portfolio/pulls).
 
 - Connect with Github API to get Pinned Projects directly
 
