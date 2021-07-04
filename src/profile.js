@@ -146,7 +146,7 @@ const contact = {
   pitch:
     "Coming Soon.....",
   copyright: "Aaron Rumao",
-  contactUrl: "",
+  contactUrl: "https://formspree.io/f/xgerzrez",
 };
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section

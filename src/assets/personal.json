@@ -1,0 +1,452 @@
+{
+    "personal": {
+        "name": "Aaron Rumao",
+        "title": "Code Enthusiast",
+        "bio": {
+            "short": "A dynamic professional who is enthusiastic about programming and the challenges that come along. Likes to make and break things in a journey to achieve things.",
+            "detailed": {
+                "line1": ""
+            }
+        },
+        "age": "25",
+        "dob": "20-10-1995",
+        "address": {
+            "line1": "Dream",
+            "line2": "Rumaoali Nandakhal",
+            "line3": "Nandakhal Dontalao Road",
+            "line4": "Virar West",
+            "line5": "Mumbai Maharashtra",
+            "country": "India",
+            "pin": "401301"
+        },
+        "contact": {
+            "pitch": "Coming Soon.....",
+            "copyright": "Aaron Rumao",
+            "contactUrl": "https://formspree.io/f/xgerzrez",
+            "mobile": {
+                "cc": "+91",
+                "number": "8446809668"
+            },
+            "email": "ronrumao@gmail.com",
+            "website": "https://ronrumao.github.io"
+        },
+        "profiles": [
+            {
+                "name": "LinkedIn",
+                "url": "https://www.linkedin.com/in/ronrumao",
+                "faClass": "fab fa-linkedin",
+                "profile-placeholder-1": "",
+                "profile-placeholder-2": ""
+            },
+            {
+                "name": "GitHub",
+                "url": "https://github.com/ronrumao",
+                "faClass": "fab fa-github",
+                "profile-placeholder-1": "",
+                "profile-placeholder-2": ""
+            },
+            {
+                "name": "CodeWars",
+                "url": "",
+                "faClass": "",
+                "profile-placeholder-1": "",
+                "profile-placeholder-2": ""
+            },
+            {
+                "name": "HackerRank",
+                "url": "",
+                "faClass": "",
+                "profile-placeholder-1": "",
+                "profile-placeholder-2": ""
+            },
+            {
+                "name": "StackOverflow",
+                "url": "",
+                "faClass": "",
+                "profile-placeholder-1": "",
+                "profile-placeholder-2": ""
+            },
+            {
+                "name": "AngelList",
+                "url": "",
+                "faClass": "",
+                "profile-placeholder-1": "",
+                "profile-placeholder-2": ""
+            },
+            {
+                "name": "VanHack",
+                "url": "",
+                "faClass": "",
+                "profile-placeholder-1": "",
+                "profile-placeholder-2": ""
+            }
+        ],
+        "personal-placeholder-1": "",
+        "personal-placeholder-2": "",
+        "personal-placeholder-3": ""
+    },
+    "work": {
+        "experience": [
+            {
+                "place": "Wordline Global Services, (Formerly part of AtoS)",
+                "period": {
+                    "start": "07-2017",
+                    "end": "CURRENT"
+                },
+                "designation": "Associate Consultant",
+                "summary": {
+                    "short": "Full Stack Developer",
+                    "detailed": {
+                        "line1": "Built and contributed for micro-service based highly scalable and resillient applications",
+                        "line2": "Built and contributed for fully responsive Web UI using angular for multiple applications from scratch",
+                        "line3": "Built and contributed for RestFul APIs using Lagom, Akka for scala and Express for javascript",
+                        "line4": "Built solutions for applications to support real-time updates, notifications, alerts etc with help of subscription based message-broker technologies",
+                        "line5": "Administered design and development of kiosk desktop application which was mainly developed in angular and electron",
+                        "line6": "Built and improved automation in multiple projects in terms of automation test as well as automation pipelines for CI-CD practices",
+                        "line7": "Conducted tech-studio workshops for debuts to help them with their development process and practices"
+                    }
+                },
+                "work-placeholder-1": "",
+                "work-placeholder-2": "",
+                "work-placeholder-3": "",
+                "projects": [
+                    {
+                        "name": "Split Ticketing",
+                        "summary": {
+                            "short": "Journey Scheduling application which is capable of finding cheaper split paths on a journey between origin and destination",
+                            "domain": "Rail",
+                            "detailed": {
+                                "line1": "Collaborated and built micro-services based on streaming architechture to handle requests and resolve with posible solutions",
+                                "line2": ""
+                            }
+                        },
+                        "skills": [
+                            {
+                                "type": "Frontend",
+                                "list": [
+                                    "Angular", "TypeScript", "Javascript", "NodeJS", "HTML", "CSS"
+                                ]
+                            },
+                            {
+                                "type": "Backend",
+                                "list": [
+                                    "Scala", "Akka", "Streams"
+                                ]
+                            },
+                            {
+                                "type": "Database",
+                                "list": [
+                                    "Neo4j", "Elasticsearch", "Redis", "AWS DynamoDB", "AWS Timestream"
+                                ]
+                            },
+                            {
+                                "type": "CI-CD",
+                                "list": [
+                                    "Jenkins", "Docker", "AWS", "TerraForm"
+                                ]
+                            }
+                        ],
+                        "project-placeholder-1": "",
+                        "project-placeholder-2": "",
+                        "project-placeholder-3": ""
+                    },
+                    {
+                        "name": "Diagramming Validator (Robustini)",
+                        "summary": {
+                            "short": "Crew and Resource plan validator to validate the diagrammed paths for activities of crew and resources",
+                            "domain": "Rail",
+                            "detailed": {
+                                "line1": ""
+                            }
+                        },
+                        "skills": [
+                            {
+                                "type": "Frontend",
+                                "list": [
+                                    "Angular", "TypeScript", "Javascript", "NodeJS", "HTML", "CSS"
+                                ]
+                            },
+                            {
+                                "type": "Backend",
+                                "list": [
+                                    "Scala", "Akka", "Streams"
+                                ]
+                            },
+                            {
+                                "type": "Database",
+                                "list": [
+                                    "Neo4j", "Elasticsearch"
+                                ]
+                            },
+                            {
+                                "type": "Message Queue",
+                                "list": [
+                                    "Apache Kafka"
+                                ]
+                            },
+                            {
+                                "type": "CI-CD",
+                                "list": [
+                                    "Jenkins", "Docker", "AWS", "TerraForm"
+                                ]
+                            }
+                        ],
+                        "project-placeholder-1": "",
+                        "project-placeholder-2": "",
+                        "project-placeholder-3": ""
+                    },
+                    {
+                        "name": "Kiosk Desktop UI (Premier Inn)",
+                        "summary": {
+                            "short": "Kiosk Application UI built initially for Premier Inn, but developed to support multi tenent(s) with ease of updating configs and images/videos/logos",
+                            "domain": "Hospitality",
+                            "detailed": {
+                                "line1": ""
+                            }
+                        },
+                        "skills": [
+                            {
+                                "type": "Frontend",
+                                "list": [
+                                    "Angular", "TypeScript", "Electron", "Javascript", "NodeJS", "HTML", "CSS"
+                                ]
+                            },
+                            {
+                                "type": "Message Queue",
+                                "list": [
+                                    "RabbitMq"
+                                ]
+                            },
+                            {
+                                "type": "CI-CD",
+                                "list": [
+                                    "Jenkins", "Chocolatey"
+                                ]
+                            }
+                        ],
+                        "project-placeholder-1": "",
+                        "project-placeholder-2": "",
+                        "project-placeholder-3": ""
+                    },
+                    {
+                        "name": "Rail Information System (Tiger)",
+                        "summary": {
+                            "short": "Rail Information Service - Application which is capable of providing different views to show the real-time train/service information with real-time schedule updates",
+                            "domain": "Rail",
+                            "detailed": {
+                                "line1": ""
+                            }
+                        },
+                        "skills": [
+                            {
+                                "type": "Frontend",
+                                "list": [
+                                    "Angular", "TypeScript", "Javascript", "NodeJS", "HTML", "CSS"
+                                ]
+                            },
+                            {
+                                "type": "Backend",
+                                "list": [
+                                    "Scala", "Akka", "Streams", "Websockets"
+                                ]
+                            },
+                            {
+                                "type": "Database",
+                                "list": [
+                                    "Elasticsearch", "Redis"
+                                ]
+                            },
+                            {
+                                "type": "Message Queue",
+                                "list": [
+                                    "RabbitMq", "AWS Simple Queue Service"
+                                ]
+                            },
+                            {
+                                "type": "CI-CD",
+                                "list": [
+                                    "Jenkins", "Docker", "AWS", "TerraForm"
+                                ]
+                            }
+                        ],
+                        "project-placeholder-1": "",
+                        "project-placeholder-2": "",
+                        "project-placeholder-3": ""
+                    },
+                    {
+                        "name": "Kiosk Monitoring System (Coeus)",
+                        "summary": {
+                            "short": "Kiosk Monitoring Application which reads real-time information of kiosk and generates events/alerts and maps to a real-time state which is consumed by external applications",
+                            "domain": "Rail",
+                            "detailed": {
+                                "line1": ""
+                            }
+                        },
+                        "skills": [
+                            {
+                                "type": "Frontend",
+                                "list": [
+                                    "Angular", "TypeScript", "Javascript", "NodeJS", "HTML", "CSS"
+                                ]
+                            },
+                            {
+                                "type": "Backend",
+                                "list": [
+                                    "Scala", "Akka", "Lagom", "Streams", "Websockets"
+                                ]
+                            },
+                            {
+                                "type": "Database",
+                                "list": [
+                                    "Elasticsearch", "OpenLDAP"
+                                ]
+                            },
+                            {
+                                "type": "Notifications",
+                                "list": [
+                                    "AWS Simple Email Service", "AWS Simple Notification Service", "Browser Push Notifications"
+                                ]
+                            },
+                            {
+                                "type": "Message Queue",
+                                "list": [
+                                    "RabbitMq", "AWS Simple Queue Service"
+                                ]
+                            },
+                            {
+                                "type": "CI-CD",
+                                "list": [
+                                    "Jenkins", "Docker", "AWS", "TerraForm"
+                                ]
+                            }
+                        ],
+                        "project-placeholder-1": "",
+                        "project-placeholder-2": "",
+                        "project-placeholder-3": ""
+                    }
+                ]
+            }
+        ],
+        "trainings": [
+            {
+                "name": "Google Cloud Platform Engineer (Coursera)",
+                "period": "2018"
+            },
+            {
+                "name": "Oracle Java SE",
+                "period": "2017"
+            },
+            {
+                "name": "Oracle SQL Database associate",
+                "period": "2017"
+            }
+        ],
+        "recognitions": [
+            {
+                "name": "Coding challenge (TechForum – Worldline event, ATOS)",
+                "period": "2018"
+            },
+            {
+                "name": "Topic presentation (TechForum – Worldline event, ATOS)",
+                "period": "2018"
+            },
+            {
+                "name": "Excellence Award (H2 2018)",
+                "period": "2018"
+            }
+        ]
+    },
+    "skills": {
+        "technology": [
+            {
+                "type": "Frontend",
+                "list": [
+                    "Angular", "TypeScript", "Electron", "Javascript", "NodeJS", "HTML", "CSS", "Bootstrap", "MaterialUI"
+                ]
+            },
+            {
+                "type": "Backend",
+                "list": [
+                    "Scala", "Akka", "Lagom", "Streams", "Websockets", "Java", "ExpressJS"
+                ]
+            },
+            {
+                "type": "Database",
+                "list": [
+                    "Neo4j", "Elasticsearch", "OpenLDAP", "Redis", "AWS DynamoDB", "AWS Timestream"
+                ]
+            },
+            {
+                "type": "Testing",
+                "list": [
+                    "Selenium", "Spectron", "Scalatest", "Cucumber"
+                ]
+            },
+            {
+                "type": "Message Queue",
+                "list": [
+                    "Apache Kafka", "RabbitMq", "AWS Simple Queue Service"
+                ]
+            },
+            {
+                "type": "CI-CD",
+                "list": [
+                    "Jenkins", "Docker", "Chocolatey", "AWS", "TerraForm"
+                ]
+            },
+            {
+                "type": "Amazon Web Services",
+                "list": [
+                    "Simple Queue Service", "Simple Email Service", "Simple Notification Service", "DynamoDB", "S3", "Cloudwatch", "Elasticsearch", "Elasticcache", "EventBridge"
+                ]
+            },
+            {
+                "type": "Design and Documentation",
+                "list": [
+                    "Jira", "Confluence", "Lucidchart"
+                ]
+            }
+        ],
+        "terminology": [
+            "DevOps", "CI-CD", "Automation", "Agile", "Git", "TDD", "BDD", "Amazon Web Services", "Google Cloud Platform", "Functional Programming", "Micro Services", "Cloud Infra-Architechture", "Full Stack Development"
+        ],
+        "skillsBar": [
+            { "name": "HTML5", "faClass": "fab fa-html5" },
+            { "name": "CSS3", "faClass": "fab fa-css3" },
+            { "name": "Javascript", "faClass": "fab fa-js" },
+            { "name": "Docker", "faClass": "fab fa-docker" },
+            { "name": "Node", "faClass": "fab fa-node" },
+            { "name": "Jenkins", "faClass": "fab fa-jenkins" },
+            { "name": "Java", "faClass": "fab fa-java" },
+            { "name": "Angular", "faClass": "fab fa-angular" },
+            { "name": "Database", "faClass": "fas fa-database" },
+            { "name": "AWS", "faClass": "fab fa-aws" }
+        ]
+    },
+    "education": [
+        {
+            "place": "Fr. Conceicao Rodrigues college of Engineering",
+            "course": "Bachelor of Engineering",
+            "grade": {
+                "type": "CGPA",
+                "measure": "7.27"
+            },
+            "period": {
+                "start": "2014",
+                "end": "2017"
+            }
+        },
+        {
+            "place": "Bahusaheb Vartak Polytecnic",
+            "course": "Diploma in Computer Technology",
+            "grade": {
+                "type": "Percent",
+                "measure": "75.28"
+            },
+            "period": {
+                "start": "2011",
+                "end": "2014"
+            }
+        }
+    ]
+}

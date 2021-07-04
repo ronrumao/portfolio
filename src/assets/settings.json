@@ -1,0 +1,20 @@
+{
+    "animation": {
+        "comment-animate": "make it false to switch off fade-up animation",
+        "animate": true,
+        "comment-duration": "animation playing duration",
+        "duration": 750,
+        "comment-once": "if true, animation plays only once when element comes on screen",
+        "once": false
+    },
+    "background": {
+        "comment-type": "Options: Snow or Particle",
+        "type": "Snow"
+    },
+    "titles": {
+        "section2title": "About Me",
+        "section3Title": "Past Projects",
+        "section4Title": "Miscellaneous",
+        "section5Title": "Get in Touch"
+    }
+}
