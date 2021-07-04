@@ -1,75 +1,22 @@
+// Use customizable profile settings to make application more re-useable
+const profile = require('./assets/personal.json');
+const settings = require('./assets/settings.json');
+
 // Change website animations
-const animation = {
-  // make it false to switch off fade-up animation
-  animate: true,
-  // animation playing duration
-  duration: 750,
-  // if true, animation plays only once when element comes on screen
-  once: false,
-};
-// Change your display name on tha landing display
-const header = {
-  name: "a Human",
-};
-const background = {
-  // Options: Snow or Particle
-  type: "Snow",
-};
+const animation = settings.animation;
+
+const background = settings.background;
+
 // Write a para about yourself here
 // To update your image, go to './styles/images.css'
-const section2title = "About Me";
-const about = {
-  paragraph:
-    "Coming Soon.... ",
-};
+const section2title = settings.titles.section2title;
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
-const skillsBar = [
-  {
-    name: "HTML5",
-    faClass: "fab fa-html5",
-  },
-  {
-    name: "CSS3",
-    faClass: "fab fa-css3",
-  },
-  {
-    name: "Javascript",
-    faClass: "fab fa-js",
-  },
-  {
-    name: "Docker",
-    faClass: "fab fa-docker",
-  },
-  {
-    name: "Node",
-    faClass: "fab fa-node",
-  },
-  {
-    name: "Jenkins",
-    faClass: "fab fa-jenkins",
-  },
-  {
-    name: "Java",
-    faClass: "fab fa-java",
-  },
-  {
-    name: "Angular",
-    faClass: "fab fa-angular",
-  },
-  {
-    name: "Database",
-    faClass: "fas fa-database",
-  },
-  {
-    name: "AWS",
-    faClass: "fab fa-aws",
-  },
-];
+const skillsBar = profile.skills.skillsBar;
 // Edit your projects, its name, your skills used to make it, and the url.
 // You can omit freely anything if you dont have it
 // To Add a Project, copy any one below and paste it after the last comma and increment the id's project number
-const section3Title = "Past Projects";
+const section3Title = settings.titles.section3Title;
 const projects = [
   {
     // Add image in './styles/images.css' in #project1
@@ -117,7 +64,7 @@ const projects = [
 // Edit your Miscellaneous Activities, its name and the url.
 // You can omit freely anything if you dont have it
 // To Add a Activity, copy any one below and paste it after the last comma and increment the id's Miscellaneous number
-const section4Title = "Miscellaneous";
+const section4Title = settings.titles.section4Title;
 const miscellaneous = [
   {
     // Add image in './styles/images.css' in #misc1
@@ -141,13 +88,8 @@ const miscellaneous = [
 // Contact form text, and Jotforms link
 // To get your own jotform link, go to https://www.jotform.com/
 // If you hacve the link already, paste it in the contactUrl below
-const section5Title = "Get in Touch";
-const contact = {
-  pitch:
-    "Coming Soon.....",
-  copyright: "Aaron Rumao",
-  contactUrl: "https://formspree.io/f/xgerzrez",
-};
+const section5Title = settings.titles.section5Title;
+const contact = profile.personal.contact;
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section
 const social = {
@@ -159,10 +101,9 @@ const social = {
 };
 // Dont change anything here
 export {
+  profile,
   animation,
-  header,
   background,
-  about,
   skillsBar,
   projects,
   miscellaneous,

@@ -1,6 +1,6 @@
 import React from 'react'
 import Skills from '../layouts/Skills'
-import { about, skillsBar, section2title } from '../../profile'
+import { section2title, profile } from '../../profile'
 
 const About = () => {
     return (
@@ -12,13 +12,13 @@ const About = () => {
                 <h1 id="About" className="red-line">{section2title}</h1>
                 </div>
                 <p className="lead about-text">
-                    {about.paragraph}  
+                    {profile.personal.bio.short}  
                 </p>
             </div>
             </div>
             <div id="Skills"> 
                 <div className="row d-flex justify-content-center skills">
-                    {skillsBar.map((x) => 
+                    {profile.skills.skillsBar.map((x) => 
                         <Skills faClass={x.faClass} label={x.name}/>
                     )}
                 </div> 
