@@ -89,6 +89,7 @@
         "experience": [
             {
                 "place": "Wordline Global Services, (Formerly part of AtoS)",
+                "logo": "worldline",
                 "period": {
                     "start": "07-2017",
                     "end": "CURRENT"
@@ -427,6 +428,7 @@
         {
             "place": "Fr. Conceicao Rodrigues college of Engineering",
             "course": "Bachelor of Engineering",
+            "logo": "frcrce",
             "grade": {
                 "type": "CGPA",
                 "measure": "7.27"
@@ -439,6 +441,7 @@
         {
             "place": "Bahusaheb Vartak Polytecnic",
             "course": "Diploma in Computer Technology",
+            "logo": "vartak",
             "grade": {
                 "type": "Percent",
                 "measure": "75.28"
