@@ -28,7 +28,7 @@ const Contact = () => {
                             </p>
                             <div className="d-flex justify-content-center align-items-center flex-column">
                                 <div className="inline-block">
-                                    {profile.personal.profiles.map(x => {
+                                    {profile.personal.profiles.map((x) => {
                                         return <a title="Visit profile" rel="noopener noreferrer" target="_blank" href={x.url}><i className={x.faClass}></i></a>
                                     })}
                                 </div>

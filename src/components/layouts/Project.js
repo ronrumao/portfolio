@@ -1,14 +1,36 @@
 import React from 'react'
+import { Accordion, Card } from "react-bootstrap";
 
-const Project = ({ id, name, url, skills }) => {
+const Project = ({ project }) => {
     return (
-        <div data-aos="fade-up" className=" col-12 col-lg-4 project-card">
-            <div className="image-project">
-                <div className={`img-pro ${id}`}></div>
-            </div>
-            <a title={url} className="project-name" rel="noopener noreferrer" target="_blank" href={url}><h2>{name}</h2></a>
-            { skills && <h3>{skills.map(skill => skill)}</h3>}
-        </div>
+        <Accordion>
+            <Card>
+                <Accordion.Toggle as={Card.Header} eventKey="0">
+                    <Card.Title>
+                        {project.name}
+                    </Card.Title>
+                    <Card.Subtitle>
+                        {project.summary.domain}
+                    </Card.Subtitle>
+                    <Card.Text>
+                        {project.summary.short} <br />
+                        {project.summary.detailed.line1} <br />
+                        {project.summary.detailed.line2}
+                    </Card.Text>
+                </Accordion.Toggle>
+
+                <Accordion.Collapse eventKey="0">
+                    <Card.Body>
+                        {project.skills && project.skills.map((sk) =>
+                            <>
+                                <Card.Subtitle>{sk.type}</Card.Subtitle>
+                                <Card.Text>{sk.list.join()}</Card.Text>
+                            </>
+                        )}
+                    </Card.Body>
+                </Accordion.Collapse>
+            </Card>
+        </Accordion>
     )
 }
 
