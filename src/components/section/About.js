@@ -4,10 +4,10 @@ import { section2title, profile } from '../../profile'
 
 const About = () => {
     return (
-        <div id="about" className="effect2">
+        <div id="about" className="work-container">
             <div data-aos="zoom-in-up" data-aos-once="true" className="row">
-                <div className="col-12 d-none d-md-block col-md-3 Photo" id="not-dark2"></div>
-                <div className="col-12 offset-md-1 col-md-8 about">
+                <div className="col-12 d-none d-md-block col-md-2 Photo" id="not-dark2"></div>
+                <div className="col-12 offset-md-1 col-md-9 about">
                     <div className="About-title-box">
                         <h1 id="About" className="red-line">{section2title}</h1>
                     </div>
