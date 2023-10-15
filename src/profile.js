@@ -97,7 +97,7 @@ const social = {
   facebook: "https://facebook.com",
   linkedin: "https://linkedin.com",
   instagram: "https://instagram.com",
-  resume: "https://novoresume.com/",
+  resume: "%PUBLIC_URL%/AaronRumao_Resume.pdf",
 };
 // Dont change anything here
 export {
