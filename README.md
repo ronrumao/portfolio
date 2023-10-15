@@ -39,7 +39,7 @@ If you created something awesome and want to contribute then feel free to open a
 ✔️ Contact Form\
 ✔️ Social Profile\
 
-To view a live example, **[click here](https://ronrumaogithub.io/portfolio/)**.
+To view a live example, **[click here](https://ronrumao.github.io/portfolio/)**.
 
 
 ## Getting Started
